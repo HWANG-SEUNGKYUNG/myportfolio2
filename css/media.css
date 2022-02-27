@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@media ( max-width:1024px) {
+    h2.sectionintro { font-size: 22px;}
+    .profileTxtBox h3 {font-size: 16px;}
+}
+
+@media ( max-width:912px) {
+    
+    .leftTxt p, .rightTxt p { font-size: 14px; line-height: 25px;}
+    .Dchart p  { font-size: 14px;}
+    .profileBox { height: auto;}
+    .profileImg {margin: auto; padding: 0 15px;}
+    .profileTxtBox { margin: auto; padding: 0;}
+    .wrap { margin-top: 20px;}
+
+    .ImgTable { margin: 0 1vw;}
+    .ImgTable .pc { width: 450px;}
+    .ImgTable .tablet { width: 250px; left: 15%; top:45% }
+    .ImgTable .phone { width: 150px; left: 55%; top:60%}
+
+    .ImgTable .pc::after { width: 386px; top: 29px; height: 213px;}
+    .ImgTable .tablet::after { width: 230px; top: 18px; height: 171px;}
+    .ImgTable .phone::after { width: 57px; top: 11px; height: 117px;}
+
+    .txtTable { width: auto;}
+
+
+    #fp-nav.fp-right { right: 5px;}
+}
+
+@media ( max-width:768px) {
+    .profileBox {flex-direction: column; height: auto; }
+    .profileImg {width: 250px; margin: 15px auto;}
+
+    .chart { width: 65px; height: 65px;}
+    span.center { width: 35px; height: 35px; line-height: 35px; font-size: 10px;}
+
+    .webportfolio {flex-direction: column; height: auto; }
+    .gwkfTable, .hotelTable { flex-direction:column-reverse; }
+
+    .underbar { width: 20%; height: 7px; margin-bottom: 20px; }
+    .txtTable { margin: 20px; padding: 0 50px;}
+    .siteTxtt { margin-bottom: 35px;}
+    .programIcon li { width: 45px;}
+
+    .thumb li { width: 33.33%; height: 25vw;}
+
+    .content h2.please { font-size: 18px;}
+}
+
+@media ( max-width:540px) {
+    .webportfolio { margin: 3vh 0;}
+
+    .designNav { text-align:  center;}
+    .txtTable>h1 { font-size: 24px;}
+
+    .webportfolio {margin: 0;}
+    .ImgTable .pc { width: 350px;}
+    .ImgTable .tablet { width: 180px; left: 17%; top:53% }
+    .ImgTable .phone { width: 110px; left: 51%; top:69%}
+
+    .ImgTable .pc::after { width: 299px; top: 21px; height: 166px;}
+    .ImgTable .tablet::after { width: 166px; top: 13px; height: 123px;}
+    .ImgTable .phone::after { width: 42px; top: 7px; height: 87px;}
+
+    .txtTable { padding: 0 25px;}
+
+    .chart { width: 50px; height: 50px;}
+    span.center { width: 30px; height: 30px; line-height: 30px; font-size: 8px;}
+    .container { gap: 5px; margin: 0;}
+
+    .designNav { margin: 15px;}
+    .designNav li { margin: 2px;}
+    .designNav a { padding: 5px 10px; font-size: 10px; }
+
+    .topbtn { width: 26px; height: 26px;}
+    .topbtn>span { width: 8px; height: 8px; left: calc(50% - 4px); bottom: 7px; border: 1px solid #38a5fd80; border-left:0; border-bottom:0; }
+    .topbtn>p {display: none;}
+}
+
+@media ( max-width:412px) {
+    .txt { margin: 0 20px; padding: 0 10px;}
+    .mainimg { left: 70%;}
+    .shadow { left: 73.5%;}
+
+    .stb2:after, .stb1:after { width: 10px; height: 10px;}
+
+    .profileImg {width: 190px;}
+    
+
+    .siteTxt { font-size: 16px;}
+
+    .siteTxtt { font-size: 12px;}
+
+    .read-more > a { font-size: 10px; width: 140px;}
+
+    .underbar { width: 20%; height: 5px; margin-bottom: 20px; }
+    .txtTable { margin: 10px 15px; padding: 10px;}
+    .siteTxt { margin-bottom: 10px;}
+    .siteTxtt { margin-bottom: 20px;}
+
+    .thumb li { width: 50%; height: 27vw;}
+
+    .iconbox li { width: 45px;} 
+    .iconbox li:first-child { width: 0;}
+}
