@@ -1,7 +1,7 @@
 var myFullpage = new fullpage('#fullpage', {
     menu: '.gnb_list',
     anchors: ['section0','section1', 'section2', 'section3', 'section4','section5','section6','section7'],
-    sectionsColor: ['#ffffff'],
+    sectionsColor: ['#ffffff00'],
     autoScrolling: true,  //스크롤 바를 스크롤 하면 한 페이지씩 넘어감(기본설정)
     responsiveHeight:350,  //세로 높이가 350px보다 작아졌을때는 오토스크롤링 작동X
     scrollBar:true, 
