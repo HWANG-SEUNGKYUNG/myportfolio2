@@ -74,6 +74,8 @@
     .designNav li { margin: 2px;}
     .designNav a { padding: 5px 10px; font-size: 10px; }
 
+    .designImg { margin: 0 50px;}
+
     .topbtn { width: 26px; height: 26px;}
     .topbtn>span { width: 8px; height: 8px; left: calc(50% - 4px); bottom: 7px; border: 1px solid #38a5fd80; border-left:0; border-bottom:0; }
     .topbtn>p {display: none;}

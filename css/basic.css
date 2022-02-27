@@ -445,7 +445,7 @@ span.center {
 
 /* section6 start */
 
-.designImg { text-align: center; margin: 0 10vw;}
+.designImg { text-align: center; margin: 0 90px;}
 
 .designImg::after { display: block; content: ''; clear: both;}
 
